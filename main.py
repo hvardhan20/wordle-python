@@ -10,7 +10,7 @@ def get_random_and_build_set():
         DICTIONARY.add(word.strip())
     rand_num = random.randrange(1, DB_SIZE)
     master_word = lines[rand_num]
-    return master_word.strip()
+    return master_word.strip(), rand_num
 
 
 WORD_DB = 'word_db.txt'
@@ -24,8 +24,8 @@ CUR_COL = 0
 EMPTY = '  '
 WORDS = [[EMPTY for _ in range(WORD_LEN)] for _ in range(NUM_GUESSES)]
 DICTIONARY = set()
-MASTER = get_random_and_build_set()
-print("WORD IS ", MASTER)
+MASTER, WORD_NUM = get_random_and_build_set()
+print("WORD IS ", WORD_NUM)
 
 
 def handle_keypress(event):
