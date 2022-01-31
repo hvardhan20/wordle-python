@@ -23,3 +23,5 @@ To run the game, simply run
 ```
 python main.py
 ```
+
+Contributions are welcome
