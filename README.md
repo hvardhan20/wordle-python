@@ -3,6 +3,8 @@ Wordle game in python using Tkinter
 
 Clone the repo and follow these instructions
 
+Requires Python 3
+
 For Ubuntu/Debian Tkinter installation:
 
 ```
