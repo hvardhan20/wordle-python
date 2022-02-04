@@ -14,7 +14,7 @@ def get_random_and_build_set():
 
 
 WORD_DB = 'word_db.txt'
-DB_SIZE = 5758
+DB_SIZE = 12879
 WORD_LEN = 5
 NUM_GUESSES = 6
 GRID_COLS = WORD_LEN
